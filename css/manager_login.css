@@ -1,0 +1,97 @@
+
+ .header_login {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif ;
+    padding: 30px;
+    text-align: left;
+    background: #24d7c2;
+    opacity: 0.6;
+    backdrop-filter: blur(5px);
+  }
+  body {
+    font-family: sans-serif;
+    padding: 10px;
+    background: rgb(179, 207, 208);
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+    /* background-image: image/blur1.jpg; */
+  }
+   div.absolute_login{
+    margin-top: 20px;
+    top:0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px solid;
+    border-color:rgb(13, 83, 118);
+    }
+
+  /* div.sticky{
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+    color: white;
+} */
+  .regibox_login {
+    background-color: lightcyan ;
+    margin-top: 10px;
+    border-left: 15px solid #41B3A3;
+    border-right: 15px solid #41B3A3;
+    padding: 4px;
+    font-size: 10px;
+    font-family: sans-serif;
+    opacity: 0.6;
+    backdrop-filter: blur(5px);
+  }
+  
+  div.frame_login {
+    border-bottom: double;
+    color: rgb(13, 83, 118); 
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+.button{
+    width: 70px;
+    height: 25px;
+    border-radius: 12px;
+    align-items: center;
+    border: 2px solid #272424;
+  
+  }
+  .submit{
+    background-color: rgb(53, 200, 200) ;
+    
+    font-family:sans-serif;
+    color:black;
+    transition: 0.25s;
+  }
+ 
+  .submit:hover{
+    height: 30px;
+    background-color: rgb(70, 195, 70);
+  
+    /* transform: rotate(-270deg); */
+  }
+  #sub1{
+  
+    background: rgb(250, 249, 249);
+    /* background-image: url(blur5.JPG); */
+    
+  }
+  a{
+    color: rgb(0, 89, 148);
+  }
+  
+  a:hover{
+    color: rgb(255,0,68);
+  }
+  h1:hover{
+    color: rgb(75, 104, 182);
+  }

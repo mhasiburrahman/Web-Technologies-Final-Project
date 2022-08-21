@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  background: #25252A;
+  
+}
+
+.header {
+  margin-top:5px;
+  top:20px;
+  width: 98%;
+  height: 75px;
+  color: white;
+  font-family: sans-serif ;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  background: rgb(255,0,68);
+  border: 3px solid;
+  
+}
+
+.regibox {
+  background-color: lightcyan ;
+  margin-top: 10px;
+  border-left: 15px solid rgb(255,0,68);
+  border-right: 15px solid rgb(255,0,68);
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+div.frame {
+  border-bottom: double;
+  color: rgb(255,0,68); 
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+div.absolute{
+  height:230px;
+  margin-top: 20px;
+  top:0px;
+  margin-left: 230px;
+  margin-right: 230px;
+  border: 3px solid;
+  border-color:whitesmoke;  
+}
+
+td{
+  margin-top: 20px;
+  background-color: rgb(244, 51, 102);
+}
+
+#button1{
+  background: #25252A;
+}
+
+a{
+  background: #25252A;
+  color: white;
+}
+
+a:hover{
+  color: lime;
+}
+
+#anchor{
+  background: #25252A;
+  
+}
+
+.button{
+  width: 70px;
+  height: 35px;
+  border-radius: 15px;
+  align-items: center;
+  border: 3px solid #42FBF2;
+  
+}
+.submit{
+  background-color: rgb(244, 51, 102) ;
+  font-family:sans-serif;
+  color:black;
+  transition: ease-out 0.3s;
+}
+.submit:hover{
+  box-shadow: inset 300px 0 0 0 lime;
+  height: 30px;
+  background-color: greenyellow;
+}
